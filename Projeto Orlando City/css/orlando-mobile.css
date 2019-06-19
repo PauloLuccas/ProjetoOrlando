@@ -1,0 +1,359 @@
+/* Responsivo para celular IOS */
+@media all and (min-width: 320px) and (max-width: 767px){
+    header{
+        width: 100%;
+    }
+    .header-black ul, #menu{
+        display: none;
+    }
+    #logotipo{
+        left:  31%;
+        z-index: 10!important;
+        transition: 1s;
+    }
+    header.open-menu #logotipo{
+        transform: rotate(360deg);
+    }
+    #btn-bars, #btn-search{
+        color: #fff;
+        font-size: 22px;
+        position: absolute;
+        top: 10px;
+        background: none;
+        border: none;
+        top: 2px;
+        display: block;
+    }
+    #btn-bars{
+        left: 4px;
+    }
+    #btn-search{
+        right: 4px;
+    }
+    #banner{
+        width: 100%;
+        height: 470px;
+        background-size: cover;
+        background-position: 0;
+        text-align: center;
+    }
+    #banner h1 {
+        top: 280px;
+        font-size: 48px;
+        margin-left: 0;
+    }
+    #banner h1 small {
+        font-size: 22px;
+    }
+    #news h2 {
+        position: relative;
+        font-size: 32px;
+        left: 1px;
+    }
+    #news hr {
+        position: relative;
+        left: 5px;
+        border-width: 4px;
+    }
+    #news .thumbnails .item-inner img{
+        width: 80%;
+    }
+    #news .owl-carousel, .owl-wrapper-ouuter {
+        margin-left: 25px;
+    }
+    #news .owl-carousel .owl-item img{
+        display: inline-block;
+    }
+    #news .thumbnails{
+        text-align: center;
+        position: relative;
+        left: -18px;    
+    }
+    #news .thumbnails img{
+        margin-right: 0px;
+    }
+    #btn-news-prev, #btn-news-next{
+        background: none;
+        border: none;
+        color: #5E2699;
+        font-size: 48px;
+        position: absolute;
+        display: block;
+        top: 620px;
+        z-index: 3;
+    }
+    #btn-news-prev{
+        left: 4px;
+    }
+    #btn-news-next{
+        right: 2px;
+    }
+    #estatisticas {
+        width: 100%;
+        height: 639px;
+    }
+    #estatisticas p{
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    #call-to-action{
+        width: 100%;
+    }
+    #call-to-action h2{
+        position: inherit;
+        font-size: 32px;
+        margin-left: 30px;
+        margin-right: 30px;
+        left: 4px;
+    }
+    #call-to-action hr{
+        position: inherit;
+    }
+    #call-to-action p{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #call-to-action .btn{
+        min-width: 130px;
+        left: 52px;
+    }
+    #call-to-action .btn-roxo{
+        float: right;
+    }
+    footer{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .copyright-mobile p{
+        font-size: 13px;
+        line-height: 0;
+    }
+    footer .row p:first-child{
+        margin-top: 10px;
+    }
+    footer .pull-right{
+        margin-right: 23px;
+        margin-top: 3px;
+    }
+    footer .pull-left{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    footer .list-socials{
+        position: absolute;
+        width: 100%;
+        left: 1px;
+        top: 170px;
+    }
+    footer .list-socials a{
+        position: relative;
+        left: 13px;
+        width: 37px;
+        height: 39px;
+        font-size: 16px;
+        border-radius: 50%;
+    }
+    footer .list-socials i{
+        font-size: 32px;
+        margin-top: 2px;
+    }
+    footer .row-cinza-claro{
+        height: 157px;
+    }
+    footer .btn-footer{
+        width: 150px;
+        background-color: #11171D;
+        height: 44px;
+        line-height: 44px;
+        position: absolute;
+    }
+    footer .container{
+        width: none;
+    }
+    footer .row-fluid{
+        display: inherit;
+    }
+    footer .row-fluid a{
+        font-size: 20px;
+        padding-bottom: 43px;
+        top: -23px;
+        left: 7px;
+    }
+    footer .left{
+        float: left;
+        left: 139px;
+        position: absolute;
+    }
+    footer .right{
+        left: -18px;
+        float: right;
+        position: absolute;
+    }
+    header .header-black{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9;
+    }
+    footer .page-up{
+        display: inline-block!important;
+    }
+    footer .col-get-touch{
+        top: 34px;
+        position: relative;
+    }
+    footer .logotipo, 
+    footer .cel, 
+    footer .col-popular-post,
+    footer .col-links{
+        display: none;
+    }
+    footer .col-md-4{
+        margin: -13px;
+    }
+    header #menu-mobile{
+        position: fixed;
+        top: 40px;
+        background-color: #fff;
+        width: 80%;
+        height: 100%;
+        left: -80%;
+        transition: 1s;
+        z-index: 5;
+        display: inherit;
+    }
+    header.open-menu #menu-mobile{
+        left: 0;
+    }
+    header.open-menu #menu-mobile-mask{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.5);
+        z-index: 4;
+    }
+    header.open-menu #logotipo{
+        position: fixed;
+        top: 50px;
+        height: 80px;
+        left: calc(40% - 33px);
+    }
+    header #menu-mobile ul{
+        margin: 20px;
+        margin-top: 110px;
+    }
+    header #menu-mobile li{
+        text-align: center;
+        border-top: #CCC 1px solid;
+    }
+    header #menu-mobile li:last-child{
+        border-bottom: #CCC 1px solid;
+    }
+    header #menu-mobile li a{
+        color: #633392;
+        font-family: 'OpenSans';
+        font-weight: bold;
+        font-size: 16px;
+        padding: 18px;
+        display: block;
+    }
+    header .bar-close{
+        position: absolute;
+        bottom: 40px;
+        background-color: #633492;
+        height: 40px;
+        width: 100%;
+    }
+    header .bar-close .btn-close{
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 22px;
+    }
+    header #input-search-mobile {
+        transition: 1s;
+        top: -40px;
+        position: fixed;
+        width: 70%;
+        left: 15%;
+        background-color: #000;
+        border: none;
+        height: 40px;
+        color: #fff;
+        outline: 0;
+    }
+    header.open-search #input-search-mobile {
+        top: 0;
+        display: inherit;
+    }
+    header.open-search #logotipo{
+        z-index: 9;
+    }
+}
+/* Responsivo para tablets*/
+@media all and (min-width: 768px) and (max-width: 1023px){
+    #menu{
+        left: 36px;
+    }
+    .header-black ul{
+        display: none;
+    }
+    #call-to-action h2{
+        left: 93px;
+    }
+    #call-to-action hr{
+        top: 0;
+        right: 2px;
+    }
+    #call-to-action .btn{
+        left: 131px;
+    }
+    footer .col-links{
+        top: -87px;
+    }
+    footer .col-get-touch andress span{
+        position: relative;
+        left: 27px;
+        top: -15px;
+    }
+    footer .col-get-touch{
+        top: 41px;
+    }
+    footer .col-get-touch andress i{
+        top: 5px;
+    }
+    footer .col-get-touch a{
+        top: -10px;
+        left: -12px;
+    }
+    footer .list-socials{
+        position: relative;
+        top: -134px;
+        width: 145%;
+    }
+}
+/* Responsivo para tablets*/
+@media all and (min-width: 1024px) and (max-width: 1099px){
+    #menu ul{
+        position: relative;
+        left: -197px;
+    }
+    .input-group{
+        left: 28rem;
+        top: -1.8rem;
+    }
+    #call-to-action h2{
+        left: 14rem;
+    }
+    #call-to-action .btn{
+        left: 11rem;
+    }
+    footer .col-links{
+        top: -59px;
+    }
+    footer .list-socials{
+        width: 102%;
+    }
+}
